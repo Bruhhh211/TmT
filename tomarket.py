@@ -293,13 +293,7 @@ def main():
             print(f"Error occurred at: {datetime.now()}")  # Add this line to log the time of the error
 
 from datetime import datetime, timedelta, timezone
-start_time = datetime.now()
-def print_welcome_message():
-    print(r"""
-          
-â–ˆâ–€â–€â€ƒâ–ˆâ–‘â–ˆâ€ƒâ–„â–€â–ˆâ€ƒâ–ˆâ–‘â–‘â€ƒâ–ˆâ€ƒâ–ˆâ–„â–„â€ƒâ–ˆâ€ƒâ–ˆâ–€â–€
-â–ˆâ–„â–ˆâ€ƒâ–ˆâ–€â–ˆâ€ƒâ–ˆâ–€â–ˆâ€ƒâ–ˆâ–„â–„â€ƒâ–ˆâ€ƒâ–ˆâ–„â–ˆâ€ƒâ–ˆâ€ƒâ–ˆâ–ˆâ–„
-          """)
+start_time = datetime.now() 
     print(Fore.GREEN + Style.BRIGHT + "Tomarket BOT")
     print(Fore.CYAN + Style.BRIGHT + "Update Link: https://github.com/adearman/tomarket")
     print(Fore.YELLOW + Style.BRIGHT + "Free Konsultasi Join Telegram Channel: https://t.me/ghalibie")
